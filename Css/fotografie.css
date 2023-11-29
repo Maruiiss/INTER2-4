@@ -1,8 +1,11 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    width: 1080px;
-    height: 1920px;
+    font-size: 20px;
+}
+
+.Bold {
+    font-weight: bold !important; 
 }
 
 .navbar {
@@ -12,23 +15,23 @@ body {
     justify-content: space-between;
     align-items: center;
     color: white;
-    height: 100px;
-    width: 460px;
+    height: 13vw;
+    width: 86vw;
+    position: relative;
 }
 
 .logo {
-    font-size: 2em;
+    font-size: 4em;
     position: relative;
-    bottom: 30px;
+    bottom: 3vw;
 }
 
 .home {
-    height: 30px;
-    width: 30px;
+    height: 4vw;
+    width: 4vw;
     position: relative;
-    right: 130px;
-    top: 22px;
-
+    right: 23.5vw;
+    top: 2vw;
 }
 
 .home img {
@@ -38,25 +41,97 @@ body {
 }
 
 .home:hover {
-    opacity: 0.8; 
+    opacity: 0.8;
 }
 
 .niveau {
-    font-size: 1em;
+    font-size: 3em;
+    text-align: right;
+    position: relative;
+    bottom: 1vw;
 }
 
-.section {
+.Intro {
+    background-color: white;
+    font-size: 18px;
+    color: black;
+    border-radius: 10px;
+    padding: 7px;
+    position: absolute;
+    top: 10vw;
+    right: 7vw;
+    width: 50vw;
+    box-shadow: 0 0 10px rgba(226, 226, 136, 0.8);
+    font-weight: bold;
+    height: 250px;
+}
+
+.jaar1 {
+    z-index: -1;
+    background-color: #FFDD0B;
+    color: black;
+    border-radius: 10px;
     padding: 20px;
+    position: absolute;
+    top: 32vw;
+    right: 4vw;
+    width: 70vw;
+    font-weight: bold; 
+    height: 130px;
 }
 
-.section h2 {
-    color: #007BFF;
+.jaar2 {
+    background-color: #FFDD0B;
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    top: 50vw;
+    right: 8vw;
+    width: 70vw;
+    font-weight: bold; 
+    height: 150px;
 }
 
-.section p {
-    line-height: 1.5;
-    color: #333;
+.jaar3 {
+    background-color: #FFDD0B;
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    top: 69vw;
+    right: 8vw;
+    width: 50vw;
+    font-weight: bold; 
+    height: 150px;
 }
 
+.stock {
+    border-radius: 10px;
+    position: absolute;
+    top: 90vw;
+    right: 25vw;
+}
 
+.outro {
+    background-color: white;
+    font-size: 18px;
+    color: black;
+    border-radius: 10px;
+    padding: 7px;
+    position: absolute;
+    top: 120vw;
+    right: 7vw;
+    width: 50vw;
+    box-shadow: 0 0 20px rgba(226, 226, 136, 0.8);
+    font-weight: bold;
+    height: 180px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
 
