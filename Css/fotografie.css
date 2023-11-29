@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: 'Arial', sans-serif;
     font-size: 20px;
+    overflow: hidden;
 }
 
 .Bold {
@@ -16,7 +17,7 @@ body {
     align-items: center;
     color: white;
     height: 13vw;
-    width: 86vw;
+    width: 73vw;
     position: relative;
 }
 
@@ -30,7 +31,7 @@ body {
     height: 4vw;
     width: 4vw;
     position: relative;
-    right: 23.5vw;
+    right: 21vw;
     top: 2vw;
 }
 
@@ -74,8 +75,8 @@ body {
     padding: 20px;
     position: absolute;
     top: 32vw;
-    right: 4vw;
-    width: 70vw;
+    right: 0vw;
+    width: 65vw;
     font-weight: bold; 
     height: 130px;
 }
@@ -88,7 +89,7 @@ body {
     position: absolute;
     top: 50vw;
     right: 8vw;
-    width: 70vw;
+    width: 60vw;
     font-weight: bold; 
     height: 150px;
 }
@@ -109,8 +110,9 @@ body {
 .stock {
     border-radius: 10px;
     position: absolute;
-    top: 90vw;
-    right: 25vw;
+    top: 85vw;
+    right: 30vw;
+    width: 390px;
 }
 
 .outro {
@@ -120,7 +122,7 @@ body {
     border-radius: 10px;
     padding: 7px;
     position: absolute;
-    top: 120vw;
+    top: 103vw;
     right: 7vw;
     width: 50vw;
     box-shadow: 0 0 20px rgba(226, 226, 136, 0.8);
@@ -131,7 +133,15 @@ body {
 .footer {
     background-color: black;
     color: white;
-    padding: 10px;
     text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 35vw;
+    width: 100%;
+    height: 200px ;
+    font-size: 14px;
 }
 
+a {
+    color: white;
+}
